@@ -1,0 +1,226 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    background: url('gina-lin-m27OTMegUyA-unsplash.jpg') ;
+    scroll-behavior: smooth;
+    background-position: fill;
+    background-size: contain;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+
+.left img {
+    width: 92px;
+    filter: invert(19%);
+}
+
+.left div {
+    color: rgb(0, 0, 0);
+    line-height: 19px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 47%;
+    margin: 7px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 2px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+
+    display: inline-block;
+    margin: 8px;
+}
+
+.navbar li a {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: rgb(151, 11, 11);
+    font-size: 1.3rem;
+}
+
+.btn {
+    top: 4px;
+    right: 20px;
+    border-radius: 10px;
+    padding: 6px 9px;
+    margin: 10px 11px;
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgb(151, 11, 11);
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 92px 80px;
+    padding: 45px;
+    width: 23%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: block;
+    width: 74%;
+    margin: 10px auto;
+    padding: 1px;
+    border: 2px solid black;
+
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(151, 11, 11);
+}
+
+body img {
+    position: relative;
+    display: inline-flex;
+}
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.footer {
+    color:white;
+    background-color: black;
+    text-align: center;
+    height: 62px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#about {
+    padding: 47px;
+    margin-top: 112px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+}
+
+#about h2 , #course h2, #memb h2{
+    color:rgb(151, 11, 11);
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#course, .card {
+    color: rgb(0, 0, 0);
+}
+
+.work-list {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 19px;
+    margin-top: 50px;
+    
+}
+
+.card {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    border: 2px solid white;
+}
+#course {
+    color:white;
+    margin-top: 0 0;
+    padding: 0 0;
+}
+#course h2{
+    margin: 21px 0;
+}
+
+.work-list h4 {
+    color:#630b3a;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#memb h2 {
+    color:rgb(151, 11, 11);
+    margin-top: 90px;
+    text-align: center;
+}
+
+#memb h4 {
+    text-align: center;
+}
+
+.abc , .bcd , .cde {
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    background-color: #808080;
+    margin-top: 1px;
+    height:387px;
+    text-align: center;
+    color:#000;
+    font-weight: bold;
+}
+
+.abc ul li , .bcd ul li , .cde ul li  {
+    text-align: left;
+}
+.abc h3 {
+    color: #000;
+}
+
+.bcd {
+    background-image: url(g.jpg);
+    background-size: cover;
+}
+.cde  {
+    background-image: url(p.jpg);
+    background-size: cover;
+}
